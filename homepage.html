@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/Style.css">
+</head>
+<body>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="asset/Script.js"></script>
+
+    <header class="container">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-info shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="homepage.html" style="color: white;">
+                    <img src="asset/image/wiz-thumb.png" height="30" class="d-inline-block align-text-top">  Wiz
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto" style="color: #0d6efd;">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="homepage.html" style="color: white;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-12 py-4 text-center">
+                <h1 class="display-1">Selamat Datang</h1>
+                <p class="lead">Website profil karakter Game</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="data">
+        <div class="row" style="margin-top: 100px;">
+            <form action="#" method="get" class="card bg-opacity-0" style="padding-inline: 0%;">
+                <input id="search" onkeyup="Search()" type="text" style="height: 150%; border-color: inherit;" placeholder=" Cari disini..."  class="col-md-12 text-muted rounded-3" > 
+            </form>
+        </div>
+
+        <ul style="list-style-type: none; padding-inline: 0%;">
+            <li>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-12 card h-25 bg-info bg-opacity-75">
+                        <table>
+                            <tr>
+                                <td><img src="asset/image/1.jpg" height="300px" style="padding: 10%;"></td>
+                                <td>
+                                    <h2 class="text-black">Qiqi</h2>   
+                                    <small class="text-muted">Muhammad Gibran | Posted on 21 Mar 2022</small>
+                                    <p  onload="WordCount()"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.<span id="dots">...</span>
+                                        <span id="more">Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                                    </p>
+                                    <a href="qiqi.html" class="btn btn-primary">Read More</a>
+                                </td>                    
+                            </tr>
+                        </table>   
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-12 card h-25 bg-info">
+                        <table>
+                            <tr>
+                                <td><img src="asset/image/2.jpg" height="300px" style="padding: 10%;"></td>
+                                <td>
+                                    <h2 class="text-black">Diona</h2>   
+                                    <small class="text-muted">Muhammad Gibran | Posted on 20 Mar 2022</small>
+                                    <p id="abc" onload="WordCount()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.<span id="dots">...</span>
+                                        <span id="more">Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                                    <a href="diona.html" class="btn btn-primary">Read More</a>
+                                </td>                    
+                            </tr>
+                        </table>   
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-12 card h-25 bg-info">
+                        <table>
+                            <tr>
+                                <td><img src="asset/image/3.jpg" height="300px" style="padding: 10%;"></td>
+                                <td>
+                                    <h2 class="text-black">Klee</h2>   
+                                    <small class="text-muted">Muhammad Gibran | Posted on 19 Mar 2022</small>
+                                    <p id="abc" onload="WordCount()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.<span id="dots">...</span>
+                                        <span id="more">Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                                    <a href="klee.html" class="btn btn-primary">Read More</a>
+                                </td>                    
+                            </tr>
+                        </table>   
+                    </div>
+                </div>
+            </li>
+        </ul>  
+    </main>
+
+    <footer class="container">
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-12 py-4">
+                &copy; 2022 UTS Pemrograman Berbasis Web.
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
